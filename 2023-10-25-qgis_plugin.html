@@ -1,43 +1,226 @@
-<!DOCTYPE html>
-<html lang="ja">
-  <head>
-    <meta charset="UTF-8">
-    <title>QGISとPythonによるGISプラグイン実践的開発セミナー</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  </head>
-  <body>
-    <h1>QGISとPythonによるGISプラグイン実践的開発セミナー</h1>
-    <dl>
-      <dt>対象</dt>
-      <dd>農業情報学会会員のうち
-        <ul>
-          <li>GIS分析に興味がある初心者〜中級者レベルの方</li>
-          <li>GIS (QGIS) にPythonで作成したプラグインを開発することに興味がある方</li>
-        </ul>
-      </dd>
-      <dt>参加者が当日準備するもの</dt>
-      <dd>
-        <ul>
-          <li>パソコン</li>
-          <li>QGIS（バージョン3.28以上を事前にインストール）</li>
-          <li>テキストエディタ (インデント機能のあるもの) 講師は Visual Studio Code を使用します。</li>
-        </ul>
-      </dd>
-      <dt>日時</dt>
-      <dd>2023年10月25日13時30分〜16時45分</dd>
-      <dt>場所<dt>
-      <dd>ビデオ会議システム Zoom</dd>
-      <dt>講師</dt>
-      <dd>山手 規裕 氏（Pacific Spatial Solutions株式会社）</dd>
-      <dt>参加費</dt>
-      <dd>無料</dd>
-      <dt>主催</dt>
-      <dd>農業情報学会 生産・経営情報部会</dd>
-      <dt>共催</dt>
-      <dd>農業情報学会 リモートセンシング部会</dd>
-      <dt>後援</dt>
-      <dd>一般社団法人OSGeo日本支部</dd>
-    </dl>
-    <h1>事前準備</h1>
-  </body>
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
+<head>
+<!-- 2023-09-24 日 11:46 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>QGISとPythonによるGISプラグイン実践的開発セミナー</title>
+<meta name="author" content="JSAI 生産・経営情報部会" />
+<meta name="generator" content="Org Mode" />
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">QGISとPythonによるGISプラグイン実践的開発セミナー
+<br />
+<span class="subtitle">2023年10月25日，ビデオ会議システムZoom開催</span>
+</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>&#30446;&#27425;</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org566fc4a">セミナー案内</a>
+<ul>
+<li><a href="#orgdea61de">概要</a></li>
+<li><a href="#orgc26cd90">講師プロフィール</a></li>
+</ul>
+</li>
+<li><a href="#org8c708fe">事前準備</a>
+<ul>
+<li><a href="#org18f6846">QGISについて</a></li>
+<li><a href="#org1bc4687">テキストエディタについて</a></li>
+</ul>
+</li>
+<li><a href="#orgb7f097c">当日のタイムテーブル</a></li>
+<li><a href="#org71b5311">配付資料等</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org566fc4a" class="outline-2">
+<h2 id="org566fc4a">セミナー案内</h2>
+<div class="outline-text-2" id="text-org566fc4a">
+</div>
+<div id="outline-container-orgdea61de" class="outline-3">
+<h3 id="orgdea61de">概要</h3>
+<div class="outline-text-3" id="text-orgdea61de">
+<ol class="org-ol">
+<li>内容
+<ul class="org-ul">
+<li>本セミナーでは，GISソフトウェアQGISとプログラミング言語Pythonを組み合わせた独自のプラグインを実装する方法について学びます。</li>
+</ul></li>
+<li>対象
+<ul class="org-ul">
+<li>農業情報学会会員のうち
+<ul class="org-ul">
+<li>GIS分析に興味がある初心者〜中級者レベルの方</li>
+<li>GIS (QGIS) にPythonで作成したプラグインを開発することに興味がある方</li>
+</ul></li>
+</ul></li>
+<li>参加者が当日準備するもの
+<ul class="org-ul">
+<li>パソコン</li>
+<li>QGIS（バージョン3.28以上を事前にインストール）</li>
+<li>テキストエディタ (インデント機能のあるもの) 講師は Visual Studio Code を使用します。</li>
+</ul></li>
+<li>日時
+<ul class="org-ul">
+<li>2023年10月25日13時30分〜16時45分</li>
+</ul></li>
+<li>場所
+<ul class="org-ul">
+<li>ビデオ会議システム Zoom</li>
+</ul></li>
+<li>講師
+<ul class="org-ul">
+<li>山手 規裕 氏（Pacific Spatial Solutions株式会社）</li>
+</ul></li>
+<li>座長
+<ul class="org-ul">
+<li>寺元郁博（農研機構）</li>
+</ul></li>
+<li>参加費
+<ul class="org-ul">
+<li>無料</li>
+</ul></li>
+<li>主催
+<ul class="org-ul">
+<li>農業情報学会 生産・経営情報部会</li>
+</ul></li>
+<li>共催
+<ul class="org-ul">
+<li>農業情報学会 リモートセンシング部会</li>
+</ul></li>
+<li>後援
+<ul class="org-ul">
+<li>一般社団法人OSGeo日本支部</li>
+</ul></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orgc26cd90" class="outline-3">
+<h3 id="orgc26cd90">講師プロフィール</h3>
+<div class="outline-text-3" id="text-orgc26cd90">
+<ul class="org-ul">
+<li>山手 規裕 氏（Pacific Spatial Solutions株式会社）
+<ul class="org-ul">
+<li>活動経歴など</li>
+<li>著書など</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org8c708fe" class="outline-2">
+<h2 id="org8c708fe">事前準備</h2>
+<div class="outline-text-2" id="text-org8c708fe">
+<ul class="org-ul">
+<li>セミナーでは講師の説明を聴きながら参加者ご自身で実際にプログラムを実行してもらいますので，参加者は事前の準備をお願いします。なお，プログラム言語Pythonは，QGISにバンドルされているものを利用できますので，Python単体のインストールは不要です。</li>
+</ul>
+</div>
+<div id="outline-container-org18f6846" class="outline-3">
+<h3 id="org18f6846">QGISについて</h3>
+<div class="outline-text-3" id="text-org18f6846">
+<ul class="org-ul">
+<li>インストールは，以下のページ等を参考にご自身の環境にあったQGISをインストールしてください。
+<ul class="org-ul">
+<li>「自分の環境にあったQGISのダウンロード」 <a href="https://qgis.org/ja/site/forusers/download.html">https://qgis.org/ja/site/forusers/download.html</a></li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org1bc4687" class="outline-3">
+<h3 id="org1bc4687">テキストエディタについて</h3>
+<div class="outline-text-3" id="text-org1bc4687">
+<ul class="org-ul">
+<li>テキストエディタは，Pythonコードを編集するために用いますので，インデント機能のあるものを推奨します。なお 講師は Visual Studio Code を使用して説明します。
+<ul class="org-ul">
+<li>Visual Studio Code <a href="https://azure.microsoft.com/ja-jp/products/visual-studio-code">https://azure.microsoft.com/ja-jp/products/visual-studio-code</a></li>
+<li>その他： それ以外に Jupyter Notebook，Notepad++，Emacs などなど何でもかまいません。</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgb7f097c" class="outline-2">
+<h2 id="orgb7f097c">当日のタイムテーブル</h2>
+<div class="outline-text-2" id="text-orgb7f097c">
+<p>
+座長： 寺元郁博（農研機構）
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">内容</th>
+<th scope="col" class="org-left">担当</th>
+<th scope="col" class="org-left">時間</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">開会</td>
+<td class="org-left">生産・経営情報部会</td>
+<td class="org-left">5分</td>
+</tr>
+
+<tr>
+<td class="org-left">研究事例紹介</td>
+<td class="org-left">第1報告：西村和志（農研機構北海道農業研究センター），第2報告：孫雯莉（農研機構西日本農業研究センター）</td>
+<td class="org-left">15分</td>
+</tr>
+
+<tr>
+<td class="org-left">ハンズオン</td>
+<td class="org-left">山手規裕</td>
+<td class="org-left">150分</td>
+</tr>
+
+<tr>
+<td class="org-left">振り返り</td>
+<td class="org-left">講師、発表者</td>
+<td class="org-left">20分</td>
+</tr>
+
+<tr>
+<td class="org-left">閉会</td>
+<td class="org-left">リモートセンシング部会</td>
+<td class="org-left">5分</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+<div id="outline-container-org71b5311" class="outline-2">
+<h2 id="org71b5311">配付資料等</h2>
+<div class="outline-text-2" id="text-org71b5311">
+<ul class="org-ul">
+<li>当日の参加方法
+<ul class="org-ul">
+<li>参加申込み時に登録されたメールアドレスへZoomアドレスを送信します。(10月23日の予定)</li>
+<li>セミナーの説明資料(プレゼン資料，使用プログラムコード，データ等)も登録メールアドレスへご連絡します。</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">&#33879;&#32773;: JSAI 生産・経営情報部会</p>
+<p class="date">Created: 2023-09-24 日 11:46</p>
+</div>
+</body>
 </html>
