@@ -1,14 +1,12 @@
 #+TITLE: QGISとPythonによるGISプラグイン実践的開発セミナー
 #+SUBTITLE: 2023年10月25日，ビデオ会議システムZoom開催
 #+AUTHOR: JSAI 生産・経営情報部会
-#+Revised: Time-stamp: <2023-09-25 11:48:53 masaei>
+#+Revised: Time-stamp: <2023-09-25 15:10:05 masaei>
 * Export Configuration                                     :noexport:ARCHIVE:
 #+STARTUP: content indent hideblocks shrink
 #+LANGUAGE: ja
 #+OPTIONS: toc:nil num:t H:4 ^:nil
 #+OPTIONS: html-style:nil
-# #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/default-style.css"/>
-# #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/org.css"/>
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/style.css"/>
 * 目次                                                               :ignore:
 #+TOC: headlines 3
@@ -86,14 +84,43 @@
 :PROPERTIES:
 :UNNUMBERED: t
 :END:
-- Zoomミーティングのアドレスパスワードは，参加申込み時に登録されたメールアドレスへ送信します。(10月23日の予定)
+- *Zoomミーティングのアドレスとパスワードは，参加申込み時に登録されたメールアドレスへ送信します。* (10月23日の予定)
 - ミーティングへ参加するときのお名前は「氏名（所属）」としてください。
-** 配付資料等
+** ハンズオンセミナー：配付資料等
 :PROPERTIES:
 :UNNUMBERED: t
 :END:
-- セミナーの説明資料(プレゼン資料，使用プログラムコード，データ等)も登録メールアドレスへご連絡します。
-
+- 説明資料(プレゼン資料，使用プログラムコード，データ等)は，セミナー当日までに登録メールアドレスへご連絡します。
+** 研究発表：研究事例①
+:PROPERTIES:
+:UNNUMBERED: t
+:END:
+- 発表者・タイトル：
+  - 西村和志「QGISカスタマイズによる農業生産工程管理アプリケーションの開発」
+- 関連成果物リンク
+  1) 論文：Development of QAgriSupport, a GIS-based Agricultural Production Process Management System, and Foregis, a Mobile Application
+     - https://www.jircas.go.jp/ja/publication/jarq/2021s15
+  2) 技術紹介パンフレット：水田飼料作を基盤とする資源循環型牛乳・牛肉生産の手引き（収穫調製流通編）
+     - https://www.naro.go.jp/publicity_report/publication/pamphlet/tech-pamph/134762.html
+  3) QAgrisupport/Foregis公開ページ
+     - https://github.com/KazushiNishimura/QAgriSupport
+** 研究発表：研究事例②
+:PROPERTIES:
+:UNNUMBERED: t
+:END:
+- 孫雯莉
+* 連絡先
+:PROPERTIES:
+:UNNUMBERED: t
+:END:
+- 農業情報学会 生産・経営情報部会
+  - 担当
+    - 部会長 佐藤正衛
+    - 副部会長 寺元郁博
+    - 幹事 孫雯莉
+  - お問い合わせは，メールで受け付けています。
+    - jsai-spm [at] jsai [dot] or [dot] jp
+  
 # Local Variables:
 # org-html-validation-link: nil
 # End:

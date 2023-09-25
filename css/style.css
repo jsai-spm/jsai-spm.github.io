@@ -443,3 +443,7 @@ div.figure {
         display: none;
     }
 }
+
+#postamble {
+    text-align: right; /* ポストアンブルを右寄せにする */
+}
