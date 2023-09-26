@@ -1,13 +1,13 @@
 #+TITLE: QGISとPythonによるGISプラグイン実践的開発セミナー
 #+SUBTITLE: 2023年10月25日，ビデオ会議システムZoom開催
 #+AUTHOR: JSAI 生産・経営情報部会
-#+Revised: Time-stamp: <2023-09-26 15:16:53 masaei>
+#+Revised: Time-stamp: <2023-09-26 16:53:12 masaei>
 * Export Configuration                                     :noexport:ARCHIVE:
 #+STARTUP: content indent hideblocks shrink
 #+LANGUAGE: ja
 #+OPTIONS: toc:nil num:t H:4 ^:nil
 #+OPTIONS: html-style:nil
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/style.css"/>
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/style_spm.css"/>
 * 目次                                                               :ignore:
 #+TOC: headlines 3
 
@@ -123,7 +123,7 @@
     - 副部会長 寺元郁博
     - 幹事 孫雯莉
   - お問い合わせは，メールで受け付けています。
-    - jsai-sub-seminar-2023 [at] ml [dot] affrc [dot] go [dot] jp
+    - メールアドレス： jsai-sub-seminar-2023 [at] ml [dot] affrc [dot] go [dot] jp
 
 # Local Variables:
 # org-html-validation-link: nil

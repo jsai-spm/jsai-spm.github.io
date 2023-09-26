@@ -488,6 +488,26 @@ div.figure {
     div.notice:before {
         display: none;
     }
+
+    /* リンクの文字色を無効にする */
+    a, a:visited {
+        color: inherit !important;
+        text-decoration: none !important;
+    }
+
+    /* リンクの背景色を無効にする */
+    a::before {
+        content: none !important;
+    }
+
+    /* 表の行ごとの色を無効にする */
+    table tr {
+        background-color: transparent !important;
+    }    
+
+    #postamble {
+        background-color: transparent !important; /* 背景色を透明にする */
+    }
 }
 
 /* #renraku-saki { */
@@ -502,6 +522,15 @@ div.figure {
     font-weight: bold; /* フォントの太さを指定 */
     color: #333; /* テキストの色を指定 */
     margin-bottom: 20px; /* 下部の余白を指定 */
+}
+
+#outline-container-renraku-saki ul.org-ul {
+    list-style: none; /* リストの記号をなくす */
+    /* padding-left: 0; /\* リストの左側の余白を削除 *\/ */
+}
+
+#outline-container-renraku-saki ul.org-ul ul.org-ul {
+    margin-top: 0; /* 入れ子リストの上部の余白を削除 */
 }
 
 #postamble {
