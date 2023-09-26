@@ -1,9 +1,3 @@
-/* body { */
-/*     font-family: Helvetica, Arial, sans-serif; */
-/*     font-size: 16px; */
-/*     line-height: 1.4; */
-/*     color: #33333f; */
-/* } */
 body {
     font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴシック ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
     font-size: 16px;
@@ -53,19 +47,6 @@ td code {
     font-weight: bold;
 }
 
-/* a:link, a:hover, a:visited { */
-/*                      text-decoration: none; */
-/*                      color: black; */
-/*                  } */
-
-/* a:link { */
-/*     background: #ff8; */
-/* } */
-
-/* a:visited { */
-/*     color: #666; */
-/*     background: #ffc; */
-/* } */
 a:link, a:hover, a:visited {
     text-decoration: none;
     color: #0078d4; /* 青色のリンク */
@@ -113,10 +94,6 @@ a[href^="http"]:after {
 }
 
 #table-of-contents a:link,
-/* #table-of-contents a:visited { */
-/*     color: black; */
-/*     background: transparent; */
-/* } */
 #table-of-contents a:visited {
     color: black;
     background: transparent;
@@ -127,9 +104,6 @@ a[href^="http"]:after {
     color: white; /* カーソルホバー時の文字色を白色に変更 */
 }
 
-/* #table-of-contents { */
-/*     line-height: 1.2; */
-/* } */
 #table-of-contents {
     font-size: 14px; /* 目次の文字サイズを調整 */
     line-height: 1.4; /* 行間の高さを調整 */
@@ -141,7 +115,7 @@ a[href^="http"]:after {
 
 #table-of-contents ul {
     list-style: none;
-    padding-left:0;
+    padding-left: 0;
     font-weight: normal;
 }
 #table-of-contents ul ul {
@@ -357,7 +331,7 @@ span.org-rainbow-delimiters-depth-4, span.org-rainbow-delimiters-depth-8 {
     color: #ccc;
 }
 
-div.figure {
+.div.figure {
     font-size: 0.85em;
 }
 
@@ -458,7 +432,6 @@ div.figure {
 }
 
 @media print {
-
     body {
         color: black;
     }
@@ -503,19 +476,13 @@ div.figure {
     /* 表の行ごとの色を無効にする */
     table tr {
         background-color: transparent !important;
-    }    
+    }
 
     #postamble {
         background-color: transparent !important; /* 背景色を透明にする */
     }
 }
 
-/* #renraku-saki { */
-/*     /\* この見出しに適用するスタイルを指定 *\/ */
-/*     color: #ff0000; /\* 例: 赤色の文字色 *\/ */
-/*     font-size: 24px; /\* 例: 大きな文字サイズ *\/ */
-/*     /\* 他のスタイルプロパティを追加できます *\/ */
-/* } */
 #renraku-saki {
     font-family: "Roboto", Arial, sans-serif; /* フォントファミリーの指定 */
     font-size: 18px; /* 文字サイズの指定 */
@@ -542,9 +509,3 @@ div.figure {
     border-top: 1px solid #666; /* 上部に細い境界線を追加 */
     line-height: 0.5; /* 行間を狭くする（例: 1.2） */
 }
-/* #postamble { */
-/*     text-align: right; /\* ポストアンブルを右寄せにする *\/ */
-/*     background-color: #fff; /\* 白色の背景 *\/ */
-/*     color: #000; /\* 黒色の文字色 *\/ */
-/*     padding: 1em; /\* 適切なパディングを設定 *\/ */
-/* } */
