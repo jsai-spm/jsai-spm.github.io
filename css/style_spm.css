@@ -2,12 +2,16 @@ body {
     font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴシック ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
     font-size: 16px;
     line-height: 1.4;
-    color: #33333f;
+    color: #333;
+    background-color: #fff;
 }
 
 code {
-    font-family: "Inconsolata", monospace;
+    font-family: "游ゴシック", "YuGothic", "ヒラギノ角ゴシック ProN", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "MS PGothic", monospace;
     font-size: 16px;
+    color: #333;
+    background-color: #eee;
+    padding: 0.25em;
 }
 
 p>code, li>code {
@@ -16,7 +20,7 @@ p>code, li>code {
 }
 
 h1, h2, h3 {
-    font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
+    font-family: "游ゴシック", "YuGothic", "ヒラギノ角ゴシック ProN", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 }
 
 h2 {
@@ -369,7 +373,7 @@ span.org-rainbow-delimiters-depth-4, span.org-rainbow-delimiters-depth-8 {
 }
 
 .subtitle {
-    font-size: 0.8em; /* 0.9倍のフォントサイズを指定 */
+    font-size: 0.8em; /* 0.8倍のフォントサイズを指定 */
 }
 
 @media screen {
