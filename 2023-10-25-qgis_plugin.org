@@ -1,7 +1,7 @@
 #+TITLE: QGISとPythonによるGISプラグイン実践的開発セミナー
 #+SUBTITLE: 2023年10月25日，ビデオ会議システムZoom開催
 #+AUTHOR: JSAI 生産・経営情報部会
-#+Revised: Time-stamp: <2023-09-27 12:57:58 masaei>
+#+Revised: Time-stamp: <2023-09-27 13:14:31 masaei>
 * Export Configuration                                     :noexport:ARCHIVE:
 #+STARTUP: content indent hideblocks shrink
 #+LANGUAGE: ja
@@ -9,12 +9,19 @@
 #+OPTIONS: html-style:nil
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/style_spm.css"/>
 * 目次                                                               :ignore:
+:PROPERTIES:
+:CUSTOM_ID: toc
+:END:
 #+TOC: headlines 3
 
 * セミナー案内
+:PROPERTIES:
+:CUSTOM_ID: information
+:END:
 ** 概要
 :PROPERTIES:
 :UNNUMBERED: t
+:CUSTOM_ID: outline
 :END:
 1) 内容
    - 本セミナーでは，GISソフトウェアQGISとプログラミング言語Pythonを組み合わせた独自のプラグインを実装する方法について学びます。関連する研究成果発表もあります。
@@ -45,28 +52,37 @@
 ** 講師プロフィール
 :PROPERTIES:
 :UNNUMBERED: t
+:CUSTOM_ID: profile
 :END:
 - 山手 規裕 氏（Pacific Spatial Solutions株式会社）
   + 活動経歴など
   + 著書など
 
 * 事前準備
+:PROPERTIES:
+:CUSTOM_ID: preparation
+:END:
 - セミナーでは講師の説明を聴きながら参加者ご自身で実際にプログラムを実行してもらいますので，参加者は事前の準備をお願いします。なお，プログラム言語Pythonは，QGISにバンドルされているものを利用できますので，Python単体のインストールは不要です。
 ** QGISについて
 :PROPERTIES:
 :UNNUMBERED: t
+:CUSTOM_ID: qgis
 :END:
 - インストールは，以下のページ等を参考にご自身の環境にあったQGISをインストールしてください。
   + 「自分の環境にあったQGISのダウンロード」 https://qgis.org/ja/site/forusers/download.html
 ** テキストエディタについて
 :PROPERTIES:
 :UNNUMBERED: t
+:CUSTOM_ID: texteditor
 :END:
 - テキストエディタは，Pythonコードを編集するために用いますので，インデント機能のあるものを推奨します。なお 講師は Visual Studio Code を使用して説明します。
   + Visual Studio Code https://azure.microsoft.com/ja-jp/products/visual-studio-code
   + その他： それ以外に Jupyter Notebook，Notepad++，Emacs などなど何でもかまいません。
 
 * 当日のタイムテーブル
+:PROPERTIES:
+:CUSTOM_ID: timetable
+:END:
 - 10月25日(水)，13:15開場，セミナー13:30〜16:45
 - 座長： 寺元郁博（農研機構農業情報研究センター）
 |----------+------------+--------------------------------------------------------------------------------------------------------------+-------|
@@ -80,20 +96,26 @@
 |----------+------------+--------------------------------------------------------------------------------------------------------------+-------|
 
 * 当日の開催要領
+:PROPERTIES:
+:CUSTOM_ID: handsonmaterials
+:END:
 ** Zoomミーティングへの参加方法
 :PROPERTIES:
 :UNNUMBERED: t
+:CUSTOM_ID: zoommeeting
 :END:
 - *Zoomミーティングのアドレスとパスワードは，参加申込み時に登録されたメールアドレスへ送信します。* (10月23日の予定)
 - ミーティングへ参加するときのお名前は「氏名（所属）」としてください。
 ** ハンズオンセミナー：配付資料等
 :PROPERTIES:
 :UNNUMBERED: t
+:CUSTOM_ID: handsonmaterials
 :END:
 - 説明資料(プレゼン資料，使用プログラムコード，データ等)は，セミナー当日までに登録メールアドレスへご連絡します。
 ** 研究発表：研究事例①
 :PROPERTIES:
 :UNNUMBERED: t
+:CUSTOM_ID: research1
 :END:
 - 発表者・タイトル：
   - 西村和志「QGISカスタマイズによる農業生産工程管理アプリケーションの開発」
@@ -107,6 +129,7 @@
 ** 研究発表：研究事例②
 :PROPERTIES:
 :UNNUMBERED: t
+:CUSTOM_ID: research2
 :END:
 - 発表者・タイトル：
   - 孫雯莉「pyQGISによる農業用ドローン作業計画支援システムの開発」

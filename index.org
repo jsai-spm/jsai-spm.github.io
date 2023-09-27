@@ -1,0 +1,56 @@
+#+TITLE: 農業情報学会 生産・経営情報部会
+#+SUBTITLE: 活動記録
+#+AUTHOR: JSAI 生産・経営情報部会
+#+Revised: Time-stamp: <2023-09-27 14:37:25 masaei>
+* Export Configuration                                     :noexport:ARCHIVE:
+#+STARTUP: content indent hideblocks shrink
+#+LANGUAGE: ja
+#+OPTIONS: toc:nil num:nil H:4 ^:nil
+#+OPTIONS: html-style:nil
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/style_spm.css"/>
+* 目次                                                               :ignore:
+:PROPERTIES:
+:CUSTOM_ID: toc
+:END:
+#+TOC: headlines 3
+
+* 2023年度
+:PROPERTIES:
+:CUSTOM_ID: fy2023
+:END:
+** 農業情報学会2023年度年次大会オーガナイズドセッション（2023年5月28日）
+:PROPERTIES:
+:CUSTOM_ID: jsai2023os
+:END:
+- セッションＢ：生産・経営情報部会「農業生産・経営情報の高度利活用による営農支援活動の変化と今後の取り組み」
+- オーガナイザー
+  - 佐藤正衛
+- 座長
+  - 寺元郁博，孫雯莉
+- 「農業情報学会 2023年度年次大会 講演要旨集」，23-42.
+** [[./2023-10-25-qgis_plugin.html][QGISとPythonによるGISプラグイン実践的開発セミナー（2023年10月25日）]]
+:PROPERTIES:
+:CUSTOM_ID: ws20231025
+:END:
+   
+* 2022年度以前
+:PROPERTIES:
+:CUSTOM_ID: before2022
+:END:
+- /準備中/
+* 連絡先
+:PROPERTIES:
+:UNNUMBERED: t
+:CUSTOM_ID: renraku-saki
+:END:
+- [[https://www.jsai.or.jp/%E9%83%A8%E4%BC%9A%E6%B4%BB%E5%8B%95/%E7%94%9F%E7%94%A3%E7%B5%8C%E5%96%B6%E6%83%85%E5%A0%B1%E9%83%A8%E4%BC%9A][農業情報学会 生産・経営情報部会]]
+  + 担当
+    - 部会長 佐藤正衛
+    - 副部会長 寺元郁博
+    - 幹事 孫雯莉
+  + お問い合わせは，メールで受け付けています。
+    - メールアドレス： jsai-spm [at] jsai [dot] or [dot] jp
+
+# Local Variables:
+# org-html-validation-link: nil
+# End:
