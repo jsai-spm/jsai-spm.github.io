@@ -1,7 +1,7 @@
 #+TITLE: QGISとPythonによるGISプラグイン実践的開発セミナー
 #+SUBTITLE: 2023年10月25日，ビデオ会議システムZoom開催
 #+AUTHOR: JSAI 生産・経営情報部会
-#+Revised: Time-stamp: <2023-09-28 12:08:21 masaei>
+#+Revised: Time-stamp: <2023-09-28 13:11:53 masaei>
 * Export Configuration                                     :noexport:ARCHIVE:
 #+STARTUP: content indent hideblocks shrink
 #+LANGUAGE: ja
@@ -20,6 +20,7 @@
 :UNNUMBERED: t
 :END:
 - セミナーの申し込み受付を開始しました。 /参加申し込みの期限は10月20日(金)です。/ (2023-9-28(Thu))
+- 事前準備などで不明点があれば[[#renraku-saki][連絡先]]のメールアドレスまでお問い合わせください。([at]は@，[dot]は. へ変換してください。)(2023-9-28(Thu))
 * セミナー案内
 :PROPERTIES:
 :CUSTOM_ID: information
@@ -41,7 +42,7 @@
    - QGIS（バージョン3.28以上を事前にインストール）
    - テキストエディタ (インデント機能のあるもの) 講師は Visual Studio Code を使用します。
 4) 日時
-   - 2023年10月25日13時30分〜16時45分
+   - 2023年10月25日(水)，13時30分〜16時45分
 5) 場所
    - ビデオ会議システム Zoom
 6) 講師
