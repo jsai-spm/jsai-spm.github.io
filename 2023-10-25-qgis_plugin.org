@@ -1,7 +1,7 @@
 #+TITLE: QGISとPythonによるGISプラグイン実践的開発セミナー
 #+SUBTITLE: 2023年10月25日，ビデオ会議システムZoom開催
 #+AUTHOR: JSAI 生産・経営情報部会
-#+Revised: Time-stamp: <2023-09-28 10:48:03 masaei>
+#+Revised: Time-stamp: <2023-09-28 12:08:21 masaei>
 * Export Configuration                                     :noexport:ARCHIVE:
 #+STARTUP: content indent hideblocks shrink
 #+LANGUAGE: ja
@@ -14,6 +14,12 @@
 :END:
 #+TOC: headlines 3
 
+* 新着情報/お知らせ
+:PROPERTIES:
+:CUSTOM_ID: news
+:UNNUMBERED: t
+:END:
+- セミナーの申し込み受付を開始しました。 /参加申し込みの期限は10月20日(金)です。/ (2023-9-28(Thu))
 * セミナー案内
 :PROPERTIES:
 :CUSTOM_ID: information
@@ -23,8 +29,9 @@
 :UNNUMBERED: t
 :CUSTOM_ID: outline
 :END:
+
 1) 内容
-   - 本セミナーでは，GISソフトウェアQGISとプログラミング言語Pythonを組み合わせた独自のプラグインを実装する方法について学びます。関連する研究成果発表もあります。
+   - 本セミナーでは，GISソフトウェアQGISとプログラミング言語Pythonを組み合わせた独自のプラグインを実装する方法について学びます。演習は最適経路問題を題材に地図データと解析プログラムを実際に操作します。関連する研究成果発表もあります。
 2) 対象
    - 農業情報学会会員のうち
      + GIS分析に興味がある初心者〜中級者レベルの方
@@ -113,12 +120,13 @@
 :END:
 - *Zoomミーティングのアドレスとパスワードは，参加申込み時に登録されたメールアドレスへ送信します。* (10月23日の予定)
 - ミーティングへ参加するときのお名前は「氏名（所属）」としてください。
-** ハンズオンセミナー：配付資料等
+** ハンズオン：配付資料等
 :PROPERTIES:
 :UNNUMBERED: t
 :CUSTOM_ID: handsonmaterials
 :END:
-- 説明資料(プレゼン資料，使用プログラムコード，データ等)は，セミナー当日までに登録メールアドレスへご連絡します。
+- 説明資料(プレゼン資料，使用プログラムコード，データ等)は，セミナー当日までに登録メールアドレスへご連絡します。(10月23日の予定)
+- 演習の題材は最適経路問題です。経路探索アルゴリズムをプラグインとして実装し，実際の地図データに適用します。
 ** 研究発表：研究事例①
 :PROPERTIES:
 :UNNUMBERED: t
