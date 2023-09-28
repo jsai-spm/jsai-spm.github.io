@@ -1,7 +1,7 @@
 #+TITLE: QGISとPythonによるGISプラグイン実践的開発セミナー
 #+SUBTITLE: 2023年10月25日，ビデオ会議システムZoom開催
 #+AUTHOR: JSAI 生産・経営情報部会
-#+Revised: Time-stamp: <2023-09-27 13:14:31 masaei>
+#+Revised: Time-stamp: <2023-09-28 10:48:03 masaei>
 * Export Configuration                                     :noexport:ARCHIVE:
 #+STARTUP: content indent hideblocks shrink
 #+LANGUAGE: ja
@@ -54,9 +54,16 @@
 :UNNUMBERED: t
 :CUSTOM_ID: profile
 :END:
-- 山手 規裕 氏（Pacific Spatial Solutions株式会社）
+- 山手 規裕（Pacific Spatial Solutions株式会社）
   + 活動経歴など
-  + 著書など
+    - 資格：
+      + 測量士、ソフトウェア開発技術者、森林情報士１級（森林GIS、森林航測、森林リモートセンシング）
+    - 財団法人 画像情報教育振興協会（CG-ARTS協会） 協会委員
+    - OSGeo財団日本支部 運営委員
+    - 電子国土賞2012受賞（PC部門）
+  + 著書：
+    - FOSS4G Handbook（共著）
+    - 統計・防災・環境情報が一目でわかる地図の作り方（共著）
 
 * 事前準備
 :PROPERTIES:
