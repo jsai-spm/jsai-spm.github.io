@@ -1,7 +1,7 @@
 #+TITLE: 農業情報学会 生産・経営情報部会
 #+SUBTITLE: 活動記録
 #+AUTHOR: JSAI 生産・経営情報部会
-#+Revised: Time-stamp: <2023-09-27 14:37:25 masaei>
+#+Revised: Time-stamp: <2023-09-28 14:51:15 masaei>
 * Export Configuration                                     :noexport:ARCHIVE:
 #+STARTUP: content indent hideblocks shrink
 #+LANGUAGE: ja
@@ -18,6 +18,15 @@
 :PROPERTIES:
 :CUSTOM_ID: fy2023
 :END:
+** [[./2023-10-25-qgis_plugin.html][QGISとPythonによるGISプラグイン実践的開発セミナー（2023年10月25日）]]
+:PROPERTIES:
+:CUSTOM_ID: ws20231025
+:END:
+- 農業情報学会の会員を対象に研究会「QGISとPythonによるGISプラグイン実践的開発セミナー」(主催：生産・経営情報部会)について，会員の皆様宛てに案内メールを送信いたしました。（2023年9月28日付）
+- 参加を希望されるJSAI会員の方で，メールをお受けとりになっていない場合は生産・経営情報部会のメール <jsai-spm [at] jsai [dot] or [dot] jp> までご連絡ください。([at]は@，[dot]は. へ変換してください。)折り返し参加申し込み登録フォームをお知らせします。(申し込み期限 2023年10月20日)
+- 研究会の詳細は以下をご覧ください。
+  https://jsai-spm.github.io/2023-10-25-qgis_plugin.html
+   
 ** 農業情報学会2023年度年次大会オーガナイズドセッション（2023年5月28日）
 :PROPERTIES:
 :CUSTOM_ID: jsai2023os
@@ -28,11 +37,6 @@
 - 座長
   - 寺元郁博，孫雯莉
 - 「農業情報学会 2023年度年次大会 講演要旨集」，23-42.
-** [[./2023-10-25-qgis_plugin.html][QGISとPythonによるGISプラグイン実践的開発セミナー（2023年10月25日）]]
-:PROPERTIES:
-:CUSTOM_ID: ws20231025
-:END:
-   
 * 2022年度以前
 :PROPERTIES:
 :CUSTOM_ID: before2022
