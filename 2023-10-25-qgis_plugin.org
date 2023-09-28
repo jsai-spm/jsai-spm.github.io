@@ -1,7 +1,7 @@
 #+TITLE: QGISとPythonによるGISプラグイン実践的開発セミナー
 #+SUBTITLE: 2023年10月25日，ビデオ会議システムZoom開催
 #+AUTHOR: JSAI 生産・経営情報部会
-#+Revised: Time-stamp: <2023-09-28 13:11:53 masaei>
+#+Revised: Time-stamp: <2023-09-28 17:35:41 masaei>
 * Export Configuration                                     :noexport:ARCHIVE:
 #+STARTUP: content indent hideblocks shrink
 #+LANGUAGE: ja
@@ -92,7 +92,9 @@
 :END:
 - テキストエディタは，Pythonコードを編集するために用いますので，インデント機能のあるものを推奨します。なお 講師は Visual Studio Code を使用して説明します。
   + Visual Studio Code https://azure.microsoft.com/ja-jp/products/visual-studio-code
-  + その他： それ以外に Jupyter Notebook，Notepad++，Emacs などなど何でもかまいません。
+    - あわせて拡張機能「Python extension for Visual Studio Code」もインストールしておくとよりプログラミングしやすくなります。
+    - (参考)「Visual Studio Codeのインストール」 https://www.python.jp/python_vscode/windows/setup/install_vscode.html
+  + その他のエディタ： それ以外に Jupyter Notebook，Notepad++，Emacs などなどお気に入りがあれば何でもかまいません。
 
 * 当日のタイムテーブル
 :PROPERTIES:
