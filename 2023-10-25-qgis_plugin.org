@@ -1,7 +1,7 @@
 #+TITLE: QGISとPythonによるGISプラグイン実践的開発セミナー
 #+SUBTITLE: 2023年10月25日，ビデオ会議システムZoom開催
 #+AUTHOR: JSAI 生産・経営情報部会
-#+Revised: Time-stamp: <2023-09-28 17:35:41 masaei>
+#+Revised: Time-stamp: <2023-09-29 10:54:42 masaei>
 * Export Configuration                                     :noexport:ARCHIVE:
 #+STARTUP: content indent hideblocks shrink
 #+LANGUAGE: ja
@@ -88,7 +88,7 @@
 ** テキストエディタについて
 :PROPERTIES:
 :UNNUMBERED: t
-:CUSTOM_ID: texteditor
+:CUSTOM_ID: text-editor
 :END:
 - テキストエディタは，Pythonコードを編集するために用いますので，インデント機能のあるものを推奨します。なお 講師は Visual Studio Code を使用して説明します。
   + Visual Studio Code https://azure.microsoft.com/ja-jp/products/visual-studio-code
@@ -98,7 +98,7 @@
 
 * 当日のタイムテーブル
 :PROPERTIES:
-:CUSTOM_ID: timetable
+:CUSTOM_ID: time-table
 :END:
 - 10月25日(水)，13:15開場，セミナー13:30〜16:45
 - 座長： 寺元郁博（農研機構農業情報研究センター）
@@ -114,26 +114,26 @@
 
 * 当日の開催要領
 :PROPERTIES:
-:CUSTOM_ID: handsonmaterials
+:CUSTOM_ID: event-details
 :END:
 ** Zoomミーティングへの参加方法
 :PROPERTIES:
 :UNNUMBERED: t
-:CUSTOM_ID: zoommeeting
+:CUSTOM_ID: zoom-meeting
 :END:
 - *Zoomミーティングのアドレスとパスワードは，参加申込み時に登録されたメールアドレスへ送信します。* (10月23日の予定)
 - ミーティングへ参加するときのお名前は「氏名（所属）」としてください。
 ** ハンズオン：配付資料等
 :PROPERTIES:
 :UNNUMBERED: t
-:CUSTOM_ID: handsonmaterials
+:CUSTOM_ID: hands-on-materials
 :END:
 - 説明資料(プレゼン資料，使用プログラムコード，データ等)は，セミナー当日までに登録メールアドレスへご連絡します。(10月23日の予定)
 - 演習の題材は最適経路問題です。経路探索アルゴリズムをプラグインとして実装し，実際の地図データに適用します。
 ** 研究発表：研究事例①
 :PROPERTIES:
 :UNNUMBERED: t
-:CUSTOM_ID: research1
+:CUSTOM_ID: research-1
 :END:
 - 発表者・タイトル：
   - 西村和志「QGISカスタマイズによる農業生産工程管理アプリケーションの開発」
@@ -147,7 +147,7 @@
 ** 研究発表：研究事例②
 :PROPERTIES:
 :UNNUMBERED: t
-:CUSTOM_ID: research2
+:CUSTOM_ID: research-2
 :END:
 - 発表者・タイトル：
   - 孫雯莉「pyQGISによる農業用ドローン作業計画支援システムの開発」
