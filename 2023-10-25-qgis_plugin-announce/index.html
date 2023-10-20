@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>事前準備について</title>
+<title>2023年10月25日 セミナー 事前準備について</title>
 <link rel="stylesheet" href="common.css">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 </head>
@@ -10,23 +10,29 @@
 
 <div class="cont">
 
-<h1>事前準備について</h1>
+<h1>2023年10月25日 セミナー 事前準備について</h1>
 
+<h2 id="TOC" name="TOC">目次</h2>
+<p><strong class="notice">必ず最後まで見て下さい</strong>。</p>
 <ul>
+<li><a href="#WHATIS">このページについて</a></li>
 <li><a href="#PATH">インストール先のパスについて</a>
   <ul>
   <li><a href="#PATH-TYPICAL">参考: 一般的なアクティブなプロファイルフォルダのパス</a></li>
   </ul>
 </li>
-<li><a href="#DEPLOY">ダウンロードと配備</a>
-  <ul>
-  <li><a href="#DEPLOY-ZIP">ZIPのダウンロード</a></li>
-  <li><a href="#DEPLOY-GITC">gitクライアントの利用</a></li>
-  </ul>
-</li>
+<li><a href="#DEPLOY">ダウンロードとインストール</a></li>
+<li><a href="#DATA">サンプルデータのダウンロード</a></li>
+<li><a href="#EDITOR">エディタについて</a></li>
 <li><a href="#SLIDE">教材スライドについて</a></li>
 </ul>
 
+<h2><a name="WHATIS" id="WHATIS">このページについて</a></h2>
+<div class="box">
+  <p>このページは <a href="https://jsai-spm.github.io/2023-10-25-qgis_plugin.html">QGISとPythonによるGISプラグイン実践的開発セミナー</a> (2023年10月25日開催) に参加される方向けに、事前準備の一覧を示しています。</p>
+  <p>行って頂くことは、routing_example のダウンロードと、インストールと、サンプルデータのダウンロードと、インストール先フォルダの確認です。</p>
+</div>
+  
 <h2><a name="PATH" id="PATH">インストール先のパスについて</a></h2>
 
 <p>インストール先は <code>(アクティブなプロファイルフォルダ)/python/plugins/routing_example</code> となります。</p>
@@ -42,12 +48,13 @@
 <dd><code>~/.local/share/QGIS/QGIS3/profiles/default/</code></dd>
 </dl>
 
-<h2><a name="DEPLOY" id="DEPLOY">ダウンロードと配備</a></h2>
+<h2><a name="DEPLOY" id="DEPLOY">ダウンロードとインストール</a></h2>
 
-<p><a href="https://github.com/Arctictern265/routing_example/">https://github.com/Arctictern265/routing_example/</a> からダウンロードします。</p>
-<p>ZIPのダウンロードを行う場合と、gitクライアントを使う場合とがあります。</p>
+<div class="box">
+  <p><a href="https://github.com/Arctictern265/routing_example/">https://github.com/Arctictern265/routing_example/</a> からダウンロードします。</p>
+</div>
 
-<h3><a name="DEPLOY-ZIP" id="DEPLOY-ZIP">ZIPのダウンロード</h3>
+<p>gitクライアントを使う場合には <a href="gitclient.html">gitクライアントを使ったインストール</a>をご覧下さい。</p>
 
 <p>上記サイトで "Code" (緑色のボタン) をクリックして、"Download ZIP" をクリックします。</p>
 <p><a href="02-dlzip.png"><img src="02-dlzip_s.png" width="400" height="276" alt="ZIPファイルダウンロード"></a></p>
@@ -59,28 +66,19 @@
 <p>インストールされると、即時に有効化され、QGISのメインウィンドウに、アイコンが表示されます。</p>
 <p><a href="05-installed.png"><img src="05-installed.png" width="245" height="162" alt="プラグインのアイコン"></a></p>
 <p>そして <code>(アクティブなプロファイルフォルダ)/python/plugins/routing_example</code> フォルダ内に <code>__init__.py</code> 等のファイルや、<code>__pycache__</code>というディレクトリが存在するようにします。</p>
-<p><a href="05-localdir.png"><img src="05-localdir_s.png" width="400" height="305" alt="正しく配備された場合"></a></p>
+<p><a href="05-localdir.png"><img src="05-localdir_s.png" width="400" height="305" alt="正しくインストールされた場合"></a></p>
 
-<h3><a name="DEPLOY-GITC" id="DEPLOY-GITC">gitクライアントの利用</a></h3>
+<h2><a name="DATA" id="DATA">サンプルデータのダウンロード</a></h2>
+<div class="box">
+  <p><a href="https://github.com/Arctictern265/routing_example/blob/files/map.gpkg">https://github.com/Arctictern265/routing_example/blob/files/map.gpkg</a>にあります。</p>
+</div>
+<p>データがないと動作しません。<strong class="notice">必ずサンプルデータをダウンロードして下さい</strong>。</p>
+<p>このファイルの置き場所は特に指定はありません。</p>
+<p>上述のプラグイン配布レポジトリでも案内があります。既にダウンロードされている場合には、二重にダウンロードする必要はありません。</p>
 
-<p><code>plugins</code>ディレクトリまで移動して、<code>git clone</code>で取得します。<code>routing_example</code>が掘られたうえでファイルが入ります。</p>
-<pre class="screen">
-$ cd (アクティブなプロファイルフォルダ)/python/plugins/
-$ git clone https://github.com/Arctictern265/routing_example/
-</pre>
+<h2><a name="EDITOR" id="EDITOR">エディタについて</a></h2>
 
-<p>この方法では有効化されていません。</p>
-
-<p>配備した後は、<strong class="notice">QGISを再起動</strong>させて下さい。</p>
-
-<p>起動時にプラグインを自動で読み取ってくれますが、勝手に利用可能にはしません。QGISのメニューで「プラグイン」→「プラグインの管理とインストール...」を選択します。</p>
-<p><a href="03-install-1.png"><img src="03-install-1.png" width="400" height="97" alt="プラグインの管理とインストールを開こうとしているところ"></a></p>
-<p>「プラグイン」ダイアログが表示されるので、左側の「インストール済」を選択し、「RoutingExamplePlugin」のチェックボックスを入れると有効化されます。</p>
-<p><a href="06-dialog-installed.png"><img src="06-dialog-installed.png" width="400" height="229" alt="プラグイン ダイアログ インストール済"></a></p>
-<p>インストールされると、即時に有効化され、QGISのメインウィンドウに、アイコンが表示されます。</p>
-<p><a href="05-installed.png"><img src="05-installed.png" width="245" height="162" alt="プラグインのアイコン"></a></p>
-<p>そして <code>(アクティブなプロファイルフォルダ)/python/plugins/routing_example</code> フォルダ内に <code>__init__.py</code> 等のファイルや、<code>__pycache__</code>というディレクトリが存在するようにします。</p>
-<p><a href="05-localdir.png"><img src="05-localdir_s.png" width="400" height="305" alt="正しく配備された場合"></a></p>
+<p>スクリプトの確認のために、テキストエディタが必要です。<a href="https://jsai-spm.github.io/2023-10-25-qgis_plugin.html">QGISとPythonによるGISプラグイン実践的開発セミナー</a>にご案内があるので、そちらをご覧下さい。</p>
 
 <h2><a name="SLIDE" id="SLIDE">教材スライドについて</a></h2>
 
