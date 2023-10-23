@@ -1,7 +1,7 @@
 #+TITLE: QGISとPythonによるGISプラグイン実践的開発セミナー
 #+SUBTITLE: 2023年10月25日，ビデオ会議システムZoom開催
 #+AUTHOR: JSAI 生産・経営情報部会
-#+Revised: Time-stamp: <2023-09-29 10:54:42 masaei>
+#+Revised: Time-stamp: <2023-10-23 09:23:38 masaei>
 * Export Configuration                                     :noexport:ARCHIVE:
 #+STARTUP: content indent hideblocks shrink
 #+LANGUAGE: ja
@@ -19,6 +19,7 @@
 :CUSTOM_ID: news
 :UNNUMBERED: t
 :END:
+- [[#teaching-materials][セミナー当日の教材]]を公開しました。(2023-10-23(Mon))
 - セミナーの申し込み受付を開始しました。 /参加申し込みの期限は10月20日(金)です。/ (2023-9-28(Thu))
 - 事前準備などで不明点があれば[[#renraku-saki][連絡先]]のメールアドレスまでお問い合わせください。([at]は@，[dot]は. へ変換してください。)(2023-9-28(Thu))
 * セミナー案内
@@ -78,6 +79,14 @@
 :CUSTOM_ID: preparation
 :END:
 - セミナーでは講師の説明を聴きながら参加者ご自身で実際にプログラムを実行してもらいますので，参加者は事前の準備をお願いします。なお，プログラム言語Pythonは，QGISにバンドルされているものを利用できますので，Python単体のインストールは不要です。
+** 当日の教材について
+:PROPERTIES:
+:UNNUMBERED: t
+:CUSTOM_ID: teaching-materials
+:END:
+- 事前にインストールしてほしいプラグイン，プレゼン資料について以下を確認してご準備をお願いします。
+  - https://jsai-spm.github.io/2023-10-25-qgis_plugin-announce/
+
 ** QGISについて
 :PROPERTIES:
 :UNNUMBERED: t
