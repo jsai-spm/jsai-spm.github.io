@@ -1,0 +1,38 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>gitクライアントを使ったインストール</title>
+<link rel="stylesheet" href="common.css">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+<body>
+
+<div class="cont">
+<h1>gitクライアントを使ったインストール</h3>
+
+<div class="box">
+  <p>プラグインのインストールでは、この方法は基本的には使わずに、ZIPファイルを使ったインストールをお勧めします。</p>
+</div>
+
+<p><code>plugins</code>ディレクトリまで移動して、<code>git clone</code>で取得します。<code>routing_example</code>が掘られたうえでファイルが入ります。</p>
+<pre class="screen">
+$ cd (アクティブなプロファイルフォルダ)/python/plugins/
+$ git clone https://github.com/Arctictern265/routing_example/
+</pre>
+<p>この方法では有効化されていません。</p>
+<p>インストールした後は、<strong class="notice">QGISを再起動</strong>させて下さい。</p>
+<p>起動時にプラグインを自動で読み取ってくれますが、勝手に利用可能にはしません。QGISのメニューで「プラグイン」→「プラグインの管理とインストール...」を選択します。</p>
+<p><a href="03-install-1.png"><img src="03-install-1.png" width="400" height="97" alt="プラグインの管理とインストールを開こうとしているところ"></a></p>
+<p>「プラグイン」ダイアログが表示されるので、左側の「インストール済」を選択し、「RoutingExamplePlugin」のチェックボックスを入れると有効化されます。</p>
+<p><a href="06-dialog-installed.png"><img src="06-dialog-installed.png" width="400" height="229" alt="プラグイン ダイアログ インストール済"></a></p>
+<p>インストールされると、即時に有効化され、QGISのメインウィンドウに、アイコンが表示されます。</p>
+<p><a href="05-installed.png"><img src="05-installed.png" width="245" height="162" alt="プラグインのアイコン"></a></p>
+<p>そして <code>(アクティブなプロファイルフォルダ)/python/plugins/routing_example</code> フォルダ内に <code>__init__.py</code> 等のファイルや、<code>__pycache__</code>というディレクトリが存在するようにします。</p>
+<p><a href="05-localdir.png"><img src="05-localdir_s.png" width="400" height="305" alt="正しくインストールされた場合"></a></p>
+
+</div>
+
+
+</body>
+</html>

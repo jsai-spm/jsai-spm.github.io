@@ -1,0 +1,55 @@
+HTML, body {
+  margin: 0;
+  padding: 0;
+  left: 0;
+  width: 100%;
+}
+
+/* 中心寄せ */
+div.cont {
+  margin: 0 auto;
+  padding: 1em 1em 3em 1em;
+  width: 100%;
+  max-width: 860px;
+}
+
+/* box */
+.box {
+  background: #ffe;
+  border: solid 1px #999;
+  padding: 1em;
+  overflow: auto;
+}
+
+pre.screen {
+  background: #000;
+  border: solid 1px #999;
+  padding: 1em;
+  overflow: auto;
+  color: #fff;
+}
+
+h1 {
+  border: solid 1px #f60;
+  border-width: 0 0 2px 0;
+}
+
+h2 {
+  border: solid 1px #f60;
+  border-width: 0 0 1px 0;
+}
+
+h3 {
+  border: dashed 0 #f60;
+  border-width: 0 0 1px 0;
+}
+
+a img {
+  border: 0;
+  text-decoration: none;
+}
+
+/* colors */
+.notice {
+  color: #c00;
+}

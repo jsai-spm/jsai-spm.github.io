@@ -1,0 +1,95 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>2023年10月25日 セミナー 事前準備について</title>
+<link rel="stylesheet" href="common.css">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+<body>
+
+<div class="cont">
+
+<h1>2023年10月25日 セミナー 事前準備について</h1>
+
+<h2 id="TOC" name="TOC">目次</h2>
+<ul>
+<li><a href="#WHATIS">このページについて</a></li>
+<li><a href="#PATH">インストール先のパスについて</a>
+  <ul>
+  <li><a href="#PATH-TYPICAL">参考: 一般的なアクティブなプロファイルフォルダのパス</a></li>
+  </ul>
+</li>
+<li><a href="#DEPLOY">ダウンロードとインストール</a></li>
+<li><a href="#DATA">サンプルデータのダウンロード</a></li>
+<li><a href="#EDITOR">エディタについて</a></li>
+<li><a href="#SLIDE">教材スライドについて</a></li>
+</ul>
+
+<h2><a name="WHATIS" id="WHATIS">このページについて</a></h2>
+<div class="box">
+  <p>このページは <a href="https://jsai-spm.github.io/2023-10-25-qgis_plugin.html">QGISとPythonによるGISプラグイン実践的開発セミナー</a> (2023年10月25日開催) に参加される方向けに、事前準備の一覧を示しています。</p>
+  <p>事前準備として実施して頂くことは、routing_example のダウンロードと、インストールと、サンプルデータのダウンロードと、インストール先フォルダの確認です。</p>
+  <p><strong class="notice">セミナーご参加の方は、必ず最後まで見て下さい</strong>。</p>
+</div>
+  
+<h2><a name="PATH" id="PATH">インストール先のパスについて</a></h2>
+
+<p>インストール先は <code>(アクティブなプロファイルフォルダ)/python/plugins/routing_example</code> となります。</p>
+
+<p>QGISの「設定」→「ユーザプロファイル」→「アクティブなプロファイルフォルダを開く」で確認できます。</p>
+<p><a href="01-qgis-activefolder.png"><img src="01-qgis-activefolder_s.png" width="400" height="72" alt="アクティブなプロファイルフォルダを開くまでの図"></a></p>
+
+<h3><a name="PATH-TYPICAL" id="PATH-TYPICAL">参考: 一般的なアクティブなプロファイルフォルダのパス</a></h3>
+<dl>
+<dt>Windows</dt>
+<dd><code>%APPDATA%\QGIS\QGIS3\profiles\default</code></dd>
+<dt>UNIX系OS</dt>
+<dd><code>~/.local/share/QGIS/QGIS3/profiles/default/</code></dd>
+</dl>
+
+<h2><a name="DEPLOY" id="DEPLOY">ダウンロードとインストール</a></h2>
+
+<div class="box">
+  <p><a href="https://github.com/Arctictern265/routing_example/">https://github.com/Arctictern265/routing_example/</a> からダウンロードします。</p>
+</div>
+
+<p>gitクライアントを使う場合には <a href="gitclient.html">gitクライアントを使ったインストール</a>をご覧下さい。</p>
+
+<p>上記サイトで "Code" (緑色のボタン) をクリックして、"Download ZIP" をクリックします。</p>
+<p><a href="02-dlzip.png"><img src="02-dlzip_s.png" width="400" height="276" alt="ZIPファイルダウンロード"></a></p>
+<p>この際、ZIPファイル名が <code>routing_example-main.zip</code> (<code>-main</code>が付いてくる) となっているので、このままインストールしようとすると、フォルダ名が routing_example-main となることに注意して下さい。</p>
+<p>続いて、QGISのメニューで「プラグイン」→「プラグインの管理とインストール...」を選択します。</p>
+<p><a href="03-install-1.png"><img src="03-install-1.png" width="400" height="97" alt="プラグインの管理とインストールを開こうとしているところ"></a></p>
+<p>「プラグイン」ダイアログが表示されるので、左側の「ZIPからインストール」を選択し、ダウンロードしたZIPファイルを選択して、最後に「インストール」ボタンをクリックします。</p>
+<p><a href="04-install-2.png"><img src="04-install-2.png" width="400" height="229" alt="プラグイン ダイアログ"></a></p>
+<p>インストールされると、即時に有効化され、QGISのメインウィンドウに、アイコンが表示されます。</p>
+<p><a href="05-installed.png"><img src="05-installed.png" width="245" height="162" alt="プラグインのアイコン"></a></p>
+<p>そして <code>(アクティブなプロファイルフォルダ)/python/plugins/routing_example</code> (または<code>routing_example-main</code>) フォルダ内に <code>__init__.py</code> 等のファイルや、<code>__pycache__</code>というディレクトリが存在するようにします。</p>
+<p><a href="05-localdir.png"><img src="05-localdir_s.png" width="400" height="305" alt="正しくインストールされた場合"></a></p>
+
+<h2><a name="DATA" id="DATA">サンプルデータのダウンロード</a></h2>
+<div class="box">
+  <p><a href="https://github.com/Arctictern265/routing_example/blob/files/map.gpkg">https://github.com/Arctictern265/routing_example/blob/files/map.gpkg</a>にあります。</p>
+</div>
+<p>データがないと動作しません。<strong class="notice">必ずサンプルデータをダウンロードして下さい</strong>。</p>
+<p>このファイルの置き場所は特に指定はありません。</p>
+<p>上述のプラグイン配布レポジトリでも案内があります。既にダウンロードされている場合には、二重にダウンロードする必要はありません。</p>
+
+<h2><a name="EDITOR" id="EDITOR">エディタについて</a></h2>
+
+<p>スクリプトの確認のために、テキストエディタが必要です。<a href="https://jsai-spm.github.io/2023-10-25-qgis_plugin.html">QGISとPythonによるGISプラグイン実践的開発セミナー</a>にご案内があるので、そちらをご覧下さい。</p>
+
+<h2><a name="SLIDE" id="SLIDE">教材スライドについて</a></h2>
+
+<div class="box">
+<p><a href="2023-10-25-qgis_plugin.pdf">PDFファイル</a> を用意しています。</p>
+</div>
+<p>当日は、このスライドをベースに詳細説明して頂きます。<strong>セミナー時に見れるようにしておくことを強くお勧めします</strong>。また、予習、復習にご利用ください。</p> 
+
+
+</div>
+
+
+</body>
+</html>
