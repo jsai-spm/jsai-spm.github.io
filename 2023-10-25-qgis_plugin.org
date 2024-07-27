@@ -1,7 +1,7 @@
 #+TITLE: QGISとPythonによるGISプラグイン実践的開発セミナー
 #+SUBTITLE: 2023年10月25日，ビデオ会議システムZoom開催
 #+AUTHOR: JSAI 生産・経営情報部会
-#+Revised: Time-stamp: <2023-10-23 09:23:38 masaei>
+#+Revised: Time-stamp: <2023-10-25 13:48:23 masaei>
 * Export Configuration                                     :noexport:ARCHIVE:
 #+STARTUP: content indent hideblocks shrink
 #+LANGUAGE: ja
@@ -137,7 +137,8 @@
 :UNNUMBERED: t
 :CUSTOM_ID: hands-on-materials
 :END:
-- 説明資料(プレゼン資料，使用プログラムコード，データ等)は，セミナー当日までに登録メールアドレスへご連絡します。(10月23日の予定)
+- 当日の教材(プレゼン資料，使用プログラムコード，データ等)
+  - https://jsai-spm.github.io/2023-10-25-qgis_plugin-announce/
 - 演習の題材は最適経路問題です。経路探索アルゴリズムをプラグインとして実装し，実際の地図データに適用します。
 ** 研究発表：研究事例①
 :PROPERTIES:
