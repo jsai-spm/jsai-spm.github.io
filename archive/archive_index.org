@@ -1,7 +1,7 @@
 #+TITLE: (作成中)2022年度以前の活動記録
 #+SUBTITLE: 農業情報学会 生産・経営情報部会
 #+AUTHOR: JSAI 生産・経営情報部会
-#+Revised: Time-stamp: <2024-09-02 18:39:24 masaei>
+#+Revised: Time-stamp: <2024-09-02 18:44:01 masaei>
 * Export Configuration                                     :noexport:ARCHIVE:
 #+STARTUP: content indent hideblocks shrink
 #+LANGUAGE: ja
@@ -71,7 +71,7 @@
 :PROPERTIES:
 :CUSTOM_ID: 2002fy
 :END:
-- [[https://www.jstage.jst.go.jp/article/air/11/2/11_112/_pdf][各部会からの挨拶 生産・経営情報部会]]
+- 二宮正士，南石晃明，[[https://www.jstage.jst.go.jp/article/air/11/2/11_112/_pdf][各部会からの挨拶 生産・経営情報部会]]
 
 * 連絡先
 :PROPERTIES:
