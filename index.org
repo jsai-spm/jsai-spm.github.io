@@ -1,7 +1,7 @@
 #+TITLE: 農業情報学会 生産・経営情報部会
 #+SUBTITLE: 活動記録
 #+AUTHOR: JSAI 生産・経営情報部会
-#+Revised: Time-stamp: <2024-09-02 15:57:17 masaei>
+#+Revised: Time-stamp: <2024-09-02 18:08:11 masaei>
 * Export Configuration                                     :noexport:ARCHIVE:
 #+STARTUP: content indent hideblocks shrink
 #+LANGUAGE: ja
@@ -63,7 +63,8 @@
 :PROPERTIES:
 :CUSTOM_ID: before2022
 :END:
-- /準備中/
+- [[./archive/archive_index.html][過去の活動記録はこちら]]
+  
 * 連絡先
 :PROPERTIES:
 :UNNUMBERED: t

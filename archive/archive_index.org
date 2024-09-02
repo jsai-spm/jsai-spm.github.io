@@ -1,0 +1,91 @@
+#+TITLE: (作成中)2022年度以前の活動記録
+#+SUBTITLE: 農業情報学会 生産・経営情報部会
+#+AUTHOR: JSAI 生産・経営情報部会
+#+Revised: Time-stamp: <2024-09-02 18:39:24 masaei>
+* Export Configuration                                     :noexport:ARCHIVE:
+#+STARTUP: content indent hideblocks shrink
+#+LANGUAGE: ja
+#+OPTIONS: toc:nil num:nil H:4 ^:nil
+#+OPTIONS: html-style:nil
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="../css/style_spm.css"/>
+* 目次                                                               :ignore:
+:PROPERTIES:
+:CUSTOM_ID: toc
+:END:
+#+TOC: headlines 3
+* 2022年
+:PROPERTIES:
+:CUSTOM_ID: 2022fy
+:END:
+* 2021年
+:PROPERTIES:
+:CUSTOM_ID: 2021fy
+:END:
+* 2020年
+:PROPERTIES:
+:CUSTOM_ID: 2020fy
+:END:
+- [[./スマート水田_社会実装に向けたシンポジウム.pdf][スマート水田 社会実装に向けたシンポジウム]]
+- 農業情報学会2020年度年次大会オーガナイズドセッション『スマート農業の実践と経営評価』オーガナイザー：吉田智一，佐藤正衛
+* 2019年
+:PROPERTIES:
+:CUSTOM_ID: 2019fy
+:END:
+* 2018年
+:PROPERTIES:
+:CUSTOM_ID: 2018fy
+:END:
+* 2017年
+:PROPERTIES:
+:CUSTOM_ID: 2017fy
+:END:
+* 2016年
+:PROPERTIES:
+:CUSTOM_ID: 2016fy
+:END:
+* 2015年
+:PROPERTIES:
+:CUSTOM_ID: 2015fy
+:END:
+* 2014年
+:PROPERTIES:
+:CUSTOM_ID: 2014fy
+:END:
+* 2013年
+:PROPERTIES:
+:CUSTOM_ID: 2013fy
+:END:
+* 2012年
+:PROPERTIES:
+:CUSTOM_ID: 2012fy
+:END:
+- 農業情報学会2012年度年次大会オーガナイズドセッション『気候変動適応策へのICT的アプローチ2』オーガナイザー：木浦卓治
+
+* 2011年
+:PROPERTIES:
+:CUSTOM_ID: 2011fy
+:END:
+- 農業情報学会2011年度年次大会オーガナイズドセッション『気候変動適応策へのICT的アプローチ』オーガナイザー：木浦卓治
+
+* 2002年
+:PROPERTIES:
+:CUSTOM_ID: 2002fy
+:END:
+- [[https://www.jstage.jst.go.jp/article/air/11/2/11_112/_pdf][各部会からの挨拶 生産・経営情報部会]]
+
+* 連絡先
+:PROPERTIES:
+:UNNUMBERED: t
+:CUSTOM_ID: renraku-saki
+:END:
+- [[https://www.jsai.or.jp/%E9%83%A8%E4%BC%9A%E6%B4%BB%E5%8B%95/%E7%94%9F%E7%94%A3%E7%B5%8C%E5%96%B6%E6%83%85%E5%A0%B1%E9%83%A8%E4%BC%9A][農業情報学会 生産・経営情報部会]]
+  + 担当
+    - 部会長 佐藤正衛
+    - 副部会長 寺元郁博
+    - 幹事 孫雯莉
+  + お問い合わせは，メールで受け付けています。
+    - メールアドレス： jsai-spm [at] jsai [dot] or [dot] jp
+
+# Local Variables:
+# org-html-validation-link: nil
+# End:
