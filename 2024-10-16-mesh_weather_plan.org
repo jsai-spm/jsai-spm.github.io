@@ -1,0 +1,173 @@
+#+TITLE: メッシュデータ活用による農業生産・経営情報分析セミナー「先行降雨指数を用いた機械作業計画支援について」
+#+SUBTITLE: 2024年10月16日，ビデオ会議システムZoom開催
+#+AUTHOR: JSAI 生産・経営情報部会
+#+Revised: Time-stamp: <2024-09-02 17:03:26 masaei>
+* Export Configuration                                     :noexport:ARCHIVE:
+#+STARTUP: content indent hideblocks shrink
+#+LANGUAGE: ja
+#+OPTIONS: toc:nil num:t H:4 ^:nil
+#+OPTIONS: html-style:nil
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/style_spm.css"/>
+* 目次                                                               :ignore:
+:PROPERTIES:
+:CUSTOM_ID: toc
+:END:
+#+TOC: headlines 3
+
+* 新着情報/お知らせ
+:PROPERTIES:
+:CUSTOM_ID: news
+:UNNUMBERED: t
+:END:
+- /現在，準備中/ (2024-9-2(Mon))
+# - 2024.9.16からセミナーの申し込み受付を開始する予定です。 /参加申し込みの期限は10月11日(金)です。/ 
+# - 不明点があれば[[#renraku-saki][連絡先]]のメールアドレスまでお問い合わせください。([at]は@，[dot]は. へ変換してください。)
+  
+* COMMENT セミナー案内
+:PROPERTIES:
+:CUSTOM_ID: information
+:END:
+** 概要
+:PROPERTIES:
+:UNNUMBERED: t
+:CUSTOM_ID: outline
+:END:
+
+1) 内容
+   - 本セミナーでは，について学びます。
+2) 対象
+   - 農業情報学会会員のうち
+     + メッシュ気象データの農業利用に興味がある初心者〜中級者レベルの方
+3) 参加者が当日準備するもの
+   - とくになし
+4) 日時
+   - 2024年10月16日(水)，13時30分〜15時00分
+5) 場所
+   - ビデオ会議システム Zoom
+6) タイトル
+   - 「先行降雨指数を用いた機械作業計画支援について」
+7) 講師
+   - 小南靖弘 氏（農研機構北海道農業研究センター）
+8) 参加費
+   - 無料
+9) 主催
+   - 農業情報学会 生産・経営情報部会
+10) 共催
+    - 農業情報学会 リモートセンシング部会
+** 講師プロフィール
+:PROPERTIES:
+:UNNUMBERED: t
+:CUSTOM_ID: profile
+:END:
+- 小南靖弘
+  + 活動経歴など
+    https://researchmap.jp/read0006062
+
+* COMMENT 事前準備                                                  :ARCHIVE:
+:PROPERTIES:
+:CUSTOM_ID: preparation
+:END:
+- セミナーでは講師の説明を聴きながら参加者ご自身で実際にプログラムを実行してもらいますので，参加者は事前の準備をお願いします。なお，プログラム言語Pythonは，QGISにバンドルされているものを利用できますので，Python単体のインストールは不要です。
+** 当日の資料について
+:PROPERTIES:
+:UNNUMBERED: t
+:CUSTOM_ID: teaching-materials
+:END:
+- プレゼン資料の一部を以下で公開いたします。
+
+** COMMENT QGISについて
+:PROPERTIES:
+:UNNUMBERED: t
+:CUSTOM_ID: qgis
+:END:
+- インストールは，以下のページ等を参考にご自身の環境にあったQGISをインストールしてください。
+  + 「自分の環境にあったQGISのダウンロード」 https://qgis.org/ja/site/forusers/download.html
+** COMMENT テキストエディタについて
+:PROPERTIES:
+:UNNUMBERED: t
+:CUSTOM_ID: text-editor
+:END:
+- テキストエディタは，Pythonコードを編集するために用いますので，インデント機能のあるものを推奨します。なお 講師は Visual Studio Code を使用して説明します。
+  + Visual Studio Code https://azure.microsoft.com/ja-jp/products/visual-studio-code
+    - あわせて拡張機能「Python extension for Visual Studio Code」もインストールしておくとよりプログラミングしやすくなります。
+    - (参考)「Visual Studio Codeのインストール」 https://www.python.jp/python_vscode/windows/setup/install_vscode.html
+  + その他のエディタ： それ以外に Jupyter Notebook，Notepad++，Emacs などなどお気に入りがあれば何でもかまいません。
+
+* COMMENT 当日のタイムテーブル
+:PROPERTIES:
+:CUSTOM_ID: time-table
+:END:
+- 10月16日(水)，13:15開場，研究会13:30〜15:00
+- 座長： 寺元郁博（農研機構農業情報研究センター）
+|----------+----------+-------------------------------------------------------------+------|
+| 開始時刻 | 内容     | 担当                                                        | 時間 |
+|----------+----------+-------------------------------------------------------------+------|
+|    13:30 | 開会     | 生産・経営情報部会：佐藤正衛（農研機構北海道農業研究センター） | 5分  |
+|    13:35 | 発表     | 小南靖弘（農研機構北海道農業研究センター）                    | 60分 |
+|    14:35 | 質疑応答 | 参加者                                                      | 20分 |
+|    14:55 | 閉会     | リモートセンシング部会：清水庸（高崎健康福祉大学）            | 5分  |
+|----------+----------+-------------------------------------------------------------+------|
+
+* COMMENT 当日の開催要領
+:PROPERTIES:
+:CUSTOM_ID: event-details
+:END:
+** Zoomミーティングへの参加方法
+:PROPERTIES:
+:UNNUMBERED: t
+:CUSTOM_ID: zoom-meeting
+:END:
+- *Zoomミーティングのアドレスとパスワードは，参加申込み時に登録されたメールアドレスへ送信します。* (10月14日の予定)
+- ミーティングへ参加するときのお名前は「氏名（所属）」としてください。
+** COMMENT ハンズオン：配付資料等                                  :ARCHIVE:
+:PROPERTIES:
+:UNNUMBERED: t
+:CUSTOM_ID: hands-on-materials
+:END:
+- 当日の教材(プレゼン資料，使用プログラムコード，データ等)
+  - https://jsai-spm.github.io/2023-10-25-qgis_plugin-announce/
+- 演習の題材は最適経路問題です。経路探索アルゴリズムをプラグインとして実装し，実際の地図データに適用します。
+** COMMENT 研究発表：研究事例①                                    :ARCHIVE:
+:PROPERTIES:
+:UNNUMBERED: t
+:CUSTOM_ID: research-1
+:END:
+- 発表者・タイトル：
+  - 西村和志「QGISカスタマイズによる農業生産工程管理アプリケーションの開発」
+- 関連成果物リンク
+  1) 論文：Development of QAgriSupport, a GIS-based Agricultural Production Process Management System, and Foregis, a Mobile Application
+     - https://www.jircas.go.jp/ja/publication/jarq/2021s15
+  2) 技術紹介パンフレット：水田飼料作を基盤とする資源循環型牛乳・牛肉生産の手引き（収穫調製流通編）
+     - https://www.naro.go.jp/publicity_report/publication/pamphlet/tech-pamph/134762.html
+  3) QAgrisupport/Foregis公開ページ
+     - https://github.com/KazushiNishimura/QAgriSupport
+** COMMENT 研究発表：研究事例②                                    :ARCHIVE:
+:PROPERTIES:
+:UNNUMBERED: t
+:CUSTOM_ID: research-2
+:END:
+- 発表者・タイトル：
+  - 孫雯莉「pyQGISによる農業用ドローン作業計画支援システムの開発」
+- 関連成果物リンク
+  1) 論文：マルチコプタによる防除作業の作業計画支援システムの開発
+     - https://doi.org/10.3173/air.32.66
+  2) 開発プログラムADWS（QGISのPythonプラグイン）のお問い合わせは，農研機構職務作成プログラム利用のお問い合わせフォームからお願いします。
+     - https://www.naro.go.jp/collab/program/index.html
+
+
+* 連絡先
+:PROPERTIES:
+:UNNUMBERED: t
+:CUSTOM_ID: renraku-saki
+:END:
+- [[https://www.jsai.or.jp/%E9%83%A8%E4%BC%9A%E6%B4%BB%E5%8B%95/%E7%94%9F%E7%94%A3%E7%B5%8C%E5%96%B6%E6%83%85%E5%A0%B1%E9%83%A8%E4%BC%9A][農業情報学会 生産・経営情報部会]]
+  - 担当
+    - 部会長 佐藤正衛
+    - 副部会長 寺元郁博
+    - 幹事 孫雯莉
+  - お問い合わせは，メールで受け付けています。
+    - メールアドレス： jsai-spm [at] jsai [dot] or [dot] jp
+
+# Local Variables:
+# org-html-validation-link: nil
+# End:

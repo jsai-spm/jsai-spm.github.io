@@ -1,7 +1,7 @@
 #+TITLE: 農業情報学会 生産・経営情報部会
 #+SUBTITLE: 活動記録
 #+AUTHOR: JSAI 生産・経営情報部会
-#+Revised: Time-stamp: <2023-09-28 17:15:31 masaei>
+#+Revised: Time-stamp: <2024-09-02 15:57:17 masaei>
 * Export Configuration                                     :noexport:ARCHIVE:
 #+STARTUP: content indent hideblocks shrink
 #+LANGUAGE: ja
@@ -13,6 +13,28 @@
 :CUSTOM_ID: toc
 :END:
 #+TOC: headlines 3
+* 2024年度
+:PROPERTIES:
+:CUSTOM_ID: fy2024
+:END:
+
+** メッシュデータ活用による農業生産・経営情報分析セミナー（2024年10月16日）
+:PROPERTIES:
+:CUSTOM_ID: ws20241016
+:END:
+ # [[./2024-10-16-mesh_weather_plan.html][メッシュデータ活用による農業生産・経営情報分析セミナー（2024年10月16日）]]
+- 農業情報学会の会員を対象にした研究会を開催します。開催1ヶ月前に会員皆様宛てに案内メールを送信する予定です。（2024年9月2日付）
+- 研究会の詳細は以下をご覧ください。 /（現在，準備中）/
+  # https://jsai-spm.github.io/2024-10-16-mesh_weather_plan.html
+
+** リモートセンシングデータ活用による農業生産・経営情報分析セミナー（2024年11月13日）
+:PROPERTIES:
+:CUSTOM_ID: ws20241113
+:END:
+ # [[./2024-11-13_srs_agri_application.html][リモートセンシングデータ活用による農業生産・経営情報分析セミナー（2024年11月13日）]]
+- 農業情報学会の会員を対象にした研究会を開催します。開催1ヶ月前に会員皆様宛てに案内メールを送信する予定です。（2024年9月2日付）
+- 研究会の詳細は以下をご覧ください。 /(現在，準備中)/
+  # https://jsai-spm.github.io/2024-11-13-srs_agri_application.html
 
 * 2023年度
 :PROPERTIES:
