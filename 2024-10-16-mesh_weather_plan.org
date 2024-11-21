@@ -1,7 +1,7 @@
 #+TITLE: メッシュデータ活用による農業生産・経営情報分析セミナー「先行降雨指数を用いた機械作業計画支援について」
 #+SUBTITLE: 2024年10月16日，ビデオ会議システムZoom開催
 #+AUTHOR: JSAI 生産・経営情報部会
-#+Revised: Time-stamp: <2024-11-21 11:29:37 masaei>
+#+Revised: Time-stamp: <2024-11-21 17:17:44 masaei>
 * Export Configuration                                     :noexport:ARCHIVE:
 #+STARTUP: content indent hideblocks shrink
 #+LANGUAGE: ja
@@ -97,6 +97,7 @@
 :UNNUMBERED: t
 :END:
 - [[./doc/20241016_MeshDataUtilSeminar_kominami_harc_handout.pdf][当日の資料(公開版)]]
+  + 本資料は，講師の先生のご厚意と許可により，一部内容を公開しております。個人利用の目的に限りダウンロード可能です。資料の無断転載および再配布を禁じます。また，内容の改変はお控えください。
 
 * 連絡先
 :PROPERTIES:
