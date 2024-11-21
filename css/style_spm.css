@@ -196,6 +196,16 @@ div.notice:before {
     border-bottom-left-radius: 0.5em;
 }
 
+.notice {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px;
+    margin: 10px 0;
+    font-size: 0.9em;
+    line-height: 1.6;
+}
+
 .notice-warning {
     background: #fcc;
     color: #600;
