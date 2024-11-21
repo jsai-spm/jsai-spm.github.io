@@ -1,7 +1,7 @@
 #+TITLE: メッシュデータ活用による農業生産・経営情報分析セミナー「先行降雨指数を用いた機械作業計画支援について」
 #+SUBTITLE: 2024年10月16日，ビデオ会議システムZoom開催
 #+AUTHOR: JSAI 生産・経営情報部会
-#+Revised: Time-stamp: <2024-10-23 10:40:34 masaei>
+#+Revised: Time-stamp: <2024-11-21 11:29:37 masaei>
 * Export Configuration                                     :noexport:ARCHIVE:
 #+STARTUP: content indent hideblocks shrink
 #+LANGUAGE: ja
@@ -20,7 +20,7 @@
 :UNNUMBERED: t
 :END:
 # - /現在，準備中/ (2024-9-2(Mon))
-- [[#teaching-materials][セミナー当日のプレゼン資料]]を公開しました。(2024-10-17(Thu))
+- [[#teaching-materials][セミナー資料(公開版)]]を掲載しました。(2024-10-17(Thu))
 - +セミナーの参加申し込みの受付を開始しました。JSAI会員宛てメールをご確認ください。 /参加申し込みの期限は10月11日(金)です。/ (2024-9-13(Fri))+
 - 不明点があれば[[#renraku-saki][連絡先]]のメールアドレスまでお問い合わせください。([at]は@，[dot]は. へ変換してください。)
   
@@ -63,18 +63,6 @@
 - 小南靖弘
   + 活動経歴など
     https://researchmap.jp/read0006062
-
-* COMMENT 事前準備                                                  :ARCHIVE:
-:PROPERTIES:
-:CUSTOM_ID: preparation
-:END:
-
-** 当日の資料について
-:PROPERTIES:
-:UNNUMBERED: t
-:CUSTOM_ID: teaching-materials
-:END:
-- プレゼン資料の一部を以下で公開いたします。
 
 * 当日のタイムテーブル
 :PROPERTIES:
